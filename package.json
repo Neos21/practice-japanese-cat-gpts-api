@@ -1,0 +1,28 @@
+{
+  "name": "practice-japanese-cat-gpts-api",
+  "description": "Practice Japanese Cat GPTs API",
+  "private": true,
+  "type": "module",
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/practice-japanese-cat-gpts-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/practice-japanese-cat-gpts-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/practice-japanese-cat-gpts-api/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  },
+  "dependencies": {
+    "@google/generative-ai": "0.16.0",
+    "@huggingface/inference": "2.8.0",
+    "@xenova/transformers": "2.17.2",
+    "dotenv": "16.4.5",
+    "node-fetch": "3.3.2",
+    "openai": "4.55.0"
+  }
+}
